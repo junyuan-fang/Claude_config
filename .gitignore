@@ -1,0 +1,30 @@
+# Ignore everything in projects/ except memory/
+projects/**
+!projects/*/
+!projects/*/memory/
+!projects/*/memory/**
+downloads/
+statsig/
+telemetry/
+shell-snapshots/
+todos/
+file-history/
+
+# Runtime / cache
+backups/
+cache/
+debug/
+ide/
+paste-cache/
+sessions/
+tasks/
+plugins/
+history.jsonl
+stats-cache.json
+
+# Sensitive
+.claude.json
+.credentials.json
+
+# Skills has its own repo
+skills/
